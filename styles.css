@@ -1,0 +1,23 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div#global {
+    width: 100%;
+    height: 100%;
+    background: rgb(139,85,255);
+    background: linear-gradient(90deg, rgba(139,85,255,1) 35%, rgba(93,220,230,1) 100%);
+}
+
+nav {
+    border: 5px;
+    border-color: black;
+}
+
+div.container-fluid p {
+    margin-top: 1%;
+    font-size: large;
+}
