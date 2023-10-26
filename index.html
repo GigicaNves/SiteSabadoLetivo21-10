@@ -6,7 +6,10 @@
     <title>Sábado Letivo</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
 <body>
 
     <div id="global"> 
@@ -17,26 +20,31 @@
                     <div class="bg-light p-4">
                       <ul>
                         <li>
-                          <h3 class="nav-itens" id="sabado">Sábado letivo</h3>
+                          <a href="#apresentacaoTxt" class="nav-itens" id="apresentacao">Apresetação</a>
                         </li>
                         <li>
-                          <h3 class="nav-itens" id="interclasse">Interclasse</h3>
+                          <a href="#sabadoTxt" class="nav-itens" id="sabado">Sábado letivo</a>
                         </li>
                         <li>
-                          <h3 class="nav-itens" id="campeoes">Campeões</h3>
+                          <a href="#interclasseTxt" class="nav-itens" id="interclasse">Interclasse</a>
                         </li>
                         <li>
-                          <h3 class="nav-itens" id="considFinais">Considerações finais</h3>
+                          <a href="#campeoesTxt" class="nav-itens" id="campeoes">Campeões</a>
                         </li>
                         <li>
-                          <h3 class="nav-itens" id="sobreNos">Sobre nós</h3>
+                          <a href="#considFinaisTxt" class="nav-itens" id="considFinais">Considerações finais</a>
+                        </li>
+                        <li>
+                          <a href="sobreNosTxt" class="nav-itens" id="sobreNos">Sobre nós</a>
                         </li>
                       </ul>
                     </div>
                   </div>
+                  
                   <nav class="navbar navbar-light bg-light">
                     <div class="container-fluid">
-                    <p>ETEC DE TABOÃO DA SERRA</p>
+                      <hr>
+                    <p>ETEC DE TABOÃO DA SERRA - 2023</p>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -73,9 +81,23 @@
             </div>
 
             <div class="conteudo">
-              <h1>SÁBADO LETIVO</h1>
-              <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!</p>
-              
+              <h1 id="apresentacaoTxt">APRESENTAÇÃO</h1>
+              <hr class="hr">
+              <p class="texto">Bem-vindo ao portal dedicado ao vibrante Sábado Letivo da Etec de Taboão da Serra, que iluminou as instalações no dia 20 de outubro de 2023! Este dia foi o epílogo emocionante de um evento ainda mais grandioso, o Interclasse, que agitou a quadra nos dias 10 e 11 de outubro, das 07:30 às 15:30.</p>
+              <div id="img-etec">
+              <img src="./assets/etecTaboao.png" class="img" alt="...">
+              <img src="./assets/etec_taboao2.png" class="img" alt="...">
+              </div>
+
+              <h1 id="sabadoTxt">SÁBADO LETIVO</h1>
+              <hr class="hr">
+              <p class="texto">Os estudantes, tanto do período integral quanto do modular, foram envolvidos em um turbilhão de 
+                atividades pensadas exclusivamente para proporcionar diversão e entretenimento. Salas foram dedicadas à prática 
+                animada de karaokê, onde talentos musicais foram revelados e risadas ecoaram. Já na energia contagiante das 
+                pistas de dança, foi onde passos de diferentes estilos se entrelaçaram em uma celebração de movimento e alegria. 
+                Para os amantes de esportes, o vôlei foi o destaque, com partidas acirradas que uniram competição e camaradagem. 
+                Já os entusiastas dos jogos de tabuleiro encontraram seu refúgio em espaços dedicados, onde estratégias foram 
+                traçadas e risos foram compartilhados.</p>
               <div id="cards">
                 <div class="card" id="card" style="width: 18rem;">
                   <img src="./assets/conviteSabado.png" class="card-img-top" alt="Convite do evento">
@@ -89,71 +111,108 @@
                   <img src="./assets/conviteabadoNos.png" class="card-img-top" alt="Convite do evento">
                 </div>
               </div>
+              <p class="texto">Mas não acaba por aí. O Sábado Letivo também reservou espaços especiais 
+                para a arte da entrevista, onde os participantes do Interclasse puderam compartilhar suas experiências, vitórias 
+                e momentos especiais. Uma oportunidade única para conhecer as histórias por trás das competições e celebrar a 
+                diversidade de talentos que fazem da Etec de Taboão da Serra uma comunidade única.</p>
 
-              <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!</p>
               <h1>IMAGENS DO EVENTO</h1>
               <div class="imagens">
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto1.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto2.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto3.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto4.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto5.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto6.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto7.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto8.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto9.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto10.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto11.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto12.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto13.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto14.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto15.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto16.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto17.png" class="card-img" alt="...">
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-light text-white">
                   <img src="./assets/fotosEvento/foto18.png" class="card-img" alt="...">
                 </div>
               </div>
+
+              <h1 id="interclasseTxt">INTERCLASSE</h1>
+              <hr class="hr">
+              <p class="texto">Os alunos das seis turmas da Etec de Taboão da Serra separaram entre si os participantes que iriam 
+                representar as classes nos times de vôlei e futsal feminino e masculino e além dessas modalidades, também houveram 
+                outras, tais como, a redação, pintura no quadro, dança e xadrez. As escalações dos times escolhidos representantes 
+                de cada sala foram decididas e expostas para os alunos envolvidos nos jogos através de uma convocação numa sala de 
+                reunião em quinze minutos durante o período de almoço dos estudantes e colaboradores da escola.</p>
+
+              <p class="texto">É válido enfatizar que o interclasse tem a função além do divertimento, vontade de vencer e dar o melhor de si, 
+                de escutar idéias diferentes e tornar pessoas unidas. O evento ocorreu dentre os dias 10 e 11 do mês de Outubro, 
+                no período de aula integral estudantil da Instituição (07:30 - 15:30). Pode- se afirmar que para os estudantes da 
+                escola, este evento é considerado o mais esperado e desejado durante todo o ano de estudos no colégio, então 
+                consequentemente é o mais elaborado, pois todos trabalham em equipe, incluem uns aos outros, e deixam a criatividade 
+                rolar. Para que o projeto não seja "negado" por alguém, todos pensam em cada um, seja nos pontos fracos e fortes também!</p>
+
+              <h1 id="campeoesTxt">CAMPEÕES</h1>
+              <hr class="hr">
+              <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!</p>
+
+              <h1 id="considFinaisTxt">CONSIDERAÇÕES FINAIS</h1>
+              <hr class="hr">
+              <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!</p>
+
+              <h1 id="sobreNosTxt">SOBRE NÓS</h1>
+              <hr class="hr">
+              <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque, praesentium quas nam reprehenderit aliquam laudantium dolorum voluptatibus quasi cum fuga possimus, exercitationem sint nostrum quidem dolore aperiam. Corrupti, autem!</p>
+
+
             </div>
 
         </main>
 
-        <footer id="rodapé">
-
+        <footer id="rodape">
+          <div class="footer">
+          <h4>ETEC DE TABOÃO DA SERRA</h4>
+          <p class="rodapeP">Praça Miguel Ortega, 135 - Parque Assuncao, Taboão da Serra - SP, 06754-160</p>
+          <p class="rodapeP">47011856</p>
+          <a href="https://etects.com.br/" id="linkRodape">Saiba mais</a>
+          </div>
         </footer>
     </div>
 
