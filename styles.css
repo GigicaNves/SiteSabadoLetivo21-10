@@ -3,13 +3,13 @@ body, html {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background: rgb(139,85,255);
+    background: linear-gradient(90deg, rgba(139,85,255,1) 35%, rgba(93,220,230,1) 100%);
 }
 
 div#global {
     width: 100%;
     height: 100%;
-    background: rgb(139,85,255);
-    background: linear-gradient(90deg, rgba(139,85,255,1) 35%, rgba(93,220,230,1) 100%);
 }
 
 nav {
@@ -20,4 +20,70 @@ nav {
 div.container-fluid p {
     margin-top: 1%;
     font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+h3.nav-itens {
+    margin: 0px;
+    padding: 5px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.carrossel {
+    box-shadow: 10px 5px 5px white;
+}
+
+div.conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    padding: 2%;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.texto {
+    padding: 3%;
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div#cards {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.card {
+    text-align: center;
+}
+
+p.card-text {
+    margin: 0px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 10px;
 }
