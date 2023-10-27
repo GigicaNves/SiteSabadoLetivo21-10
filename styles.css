@@ -105,6 +105,10 @@ div#img-etec {
     align-items: center;
 }
 
+a.etec {
+    text-decoration: none;
+}
+
 div#cards {
     height: 100%;
     width: 100%;
@@ -132,6 +136,45 @@ div.imagens {
     flex-wrap: wrap;
     align-content: center;
     gap: 10px;
+}
+
+h5 {
+    padding: 2%;
+    color: white;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+}
+
+div#turmas {
+    width: 30%;
+    height: 40%;
+
+}
+
+div.turmas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+}
+
+card.turmas {
+    width: 100%;
+    height: auto;
+}
+
+div.podio {
+    width: auto;
+    border: solid 2px white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1#podio {
+    padding: 10px;
+    margin: 0px;
 }
 
 footer#rodape {
