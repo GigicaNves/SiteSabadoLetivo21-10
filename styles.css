@@ -90,12 +90,12 @@ img.img {
     height: 45%;
     margin-bottom: 5%;
     margin: 2%;
-    box-shadow: 10px 10px 10px white;
 }
 
 img.img:hover {
     transform: scale(1.05);
     transition: 250ms linear; 
+    box-shadow: 10px 10px 10px white;
 }
 
 div#img-etec {
@@ -163,6 +163,19 @@ card.turmas {
     height: auto;
 }
 
+div.modalidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.modalidade {
+    width: min-content;
+}
+
 div.podio {
     width: auto;
     border: solid 2px white;
@@ -170,11 +183,37 @@ div.podio {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    margin: 3%;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+} 
 
 h1#podio {
     padding: 10px;
     margin: 0px;
+}
+
+h5.nomeModalidade {
+    margin: 0px;
+    padding: 15px;
+}
+
+ul.classificados {
+    margin: 0px;
+    padding: 10px;
+}
+
+ul.classificados li {
+    text-align: left;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul#geral.classificados {
+   width: max-content;
+}
+
+li.podioGeral {
+    font-size: large;
 }
 
 footer#rodape {
@@ -208,6 +247,61 @@ a#linkRodape {
     color: black;
 }
 
+div.integrantes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+
+div.cardIntegrante {
+    width: min-content;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(139,85,255);
+    background: linear-gradient(90deg, rgba(139,85,255,1) 35%, rgba(93,220,230,1) 100%);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    border: solid 2px white;
+}
+
+div.cardIntegrante:hover {
+    transform: scale(1.05);
+    transition: 250ms linear; 
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+div.foto {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img.fotoImg {
+    width:60%;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+h2.funcaoTxt {
+    padding: 10px;
+}
+
+p.descricaoTxt {
+    padding: 1px;
+}
+
+
+
 @media screen and (max-width: 800px) {
     div.conteudo {
         margin-top: 2%;
@@ -233,5 +327,7 @@ a#linkRodape {
   }
 
   @media screen and (max-width: 760px) {
-    
+    div.integrantes {
+        gap: 15px;
+    }
   }
