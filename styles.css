@@ -303,6 +303,12 @@ a#linkRodape {
 button {
     background-color: transparent;
     border-style: hidden;
+    margin: 20px;
+}
+
+button, select {
+    text-transform: none;
+    margin: 20px;
 }
 
 button:hover {
